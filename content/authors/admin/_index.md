@@ -1,105 +1,110 @@
 ---
 # Display name
-title: 吳健雄
+title: Davide Ferretti
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Davide Ferretti
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Davide
+last_name: Ferretti
 
 # Status emoji
-status:
-  icon: ☕️
+# status:
+#   icon: ☕️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Software Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Leonardo Electronics
+    url: https://www.leonardo.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:davide.ferretti.j@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/davidizzle
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/davidizzle
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/davide-ferretti
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/davidizzle
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: M.Sc. Optimization and Control, Electrical Engineering
+    institution: Imperial College Lonodn
+    date_start: 2020-09-01
+    date_end: 2021-10-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      GPA: 4.0/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Computer Vision and Pattern Recognition
+      - Model Predictive Control
+      - Constrained and Unconstrained Optimization
+  - area: B.Sc. Communications, Electrical Engineering
+    institution: Politecnico di Torino
+    date_start: 2016-01-09
+    date_end: 2019-09-30
     summary: |
-      GPA: 3.4/4.0
+      GPA: 4.0/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Discrete Mathematics, Statistics, Stochastic Calculus
+      - Signal Processing, Algorithms and Data Structures
+      - Communication Networks, Digital Transmission, Information Theory
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Software Engineer
+    company_name: Leonardo Electronics
+    company_url: 'https://www.leonardo.com'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-09-01
     date_end: ''
-    summary: |2-
+    summary: |  
+      Key division of Italian blue-chip company leading revenue growth, deploying and selling RADARs worldwide 
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Improved new RADAR precision and reliability by meaningful margin by spearheading analyses that uncovered and resolved significant undetected errors in the deployed iteration — proposing improvements
+      - Enabled testing to be faster, easier, and ubiquitous – shortening time to market by ∼10%
+  - position: Investments Analyst, Equities
+    company_name: Exor Capital, Lingotto
+    company_url: 'https://www.lingotto.com'
+    company_logo: 'https://exor.com/themes/custom/exor/img/exor_logo.svg'
+    date_start: 2022-01-20
+    date_end: 2023-04-30
     summary: |
+      Youngest analyst in a hedge fund which has outperformed MSCI World Index and grown in AUM by >300% to date
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Explored and led coverage of a new pharmaceutical stock, delivering a 90% profit on a ∼10 USDm investment
+      - Established the first-ever team benchmark for stock exploration efficiency featured in weekly report to CEO John Elkann, analyzing time management and idea generation patterns within the front-office team 
+      - Proactively built in-house tools for automated data extraction which reduced manual time effort by 90% on routine updates – prompted by provider’s repeated failures to deliver quality data
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
+      - name: C++
+        description: ''
+        percent: 80
+        icon: devicon/cplusplus
       - name: Python
         description: ''
         percent: 80
@@ -132,10 +137,10 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Italian
+    percent: 100
+  - name: Spanish
+    percent: 60
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -169,4 +174,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently a second level software engineer at Leonardo, where I am building core functionalities on RADAR signal processing, data extraction and scheduling logic in performance-critical military application with microsecond scale latency.
