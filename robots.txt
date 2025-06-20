@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://davidizzle.github.io/dvdz-minimal/sitemap.xml
+Sitemap: https://dvdz.xyz/sitemap.xml
